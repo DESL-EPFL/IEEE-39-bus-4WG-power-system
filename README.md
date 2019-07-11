@@ -6,13 +6,13 @@ A full-replica MATLAB/Simulink dynamic model of the adapted IEEE 39-bus power sy
 * M-class cs-TFM PMUs are installed on each load bus for local under frequency load shedding (UFLS)
 
 ## Files
-## Simulink Model 
-## Initialization Files
-### Transmission line parameters
+### Simulink Model 
+### Initialization Files
+#### Transmission line parameters
 The IEEE 39-bus does not specify any line lengths; therefore, we choose them to obtain a propagation speed just below the speed of light. 
-### Loads profiles
+#### Loads profiles
 The realistic load profiles are active and reactive components inferred by time series data, adapted from a monitoring system based on Phasor Measurement Units (PMUs) installed in the 125-kV grid of the city of Lausanne, Switzerland. The resolution of the time series is 20 milliseconds and the profiles are voltage and frequency independent. 
-## The real-time simulator 
+## Real-time simulator 
 We use the Opal-RT real-time digital simulator OP5600, coupled with the eMEGAsim PowerGrid running on the RT-LAB real-time simulation platform. For installation, user guide and more information of the real-time simulator go [here](https://www.opal-rt.com/).
 ## Software 
 The following software is required to run the model:
