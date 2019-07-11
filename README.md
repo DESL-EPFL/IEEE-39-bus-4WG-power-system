@@ -6,7 +6,8 @@ A full-replica MATLAB/Simulink dynamic model of the adapted IEEE 39-bus power sy
 * M-class cs-TFM PMUs are installed on each load bus for local under frequency load shedding (UFLS)
 
 ## Files
-### Simulink Model 
+### Simulation Model 
+The main MATLAB/Simulink model.
 ### Initialization Files
 #### Transmission line parameters
 The IEEE 39-bus does not specify any line lengths; therefore, we choose them to obtain a propagation speed just below the speed of light. 
