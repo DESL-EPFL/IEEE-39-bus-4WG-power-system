@@ -1,7 +1,7 @@
 # IEEE-39-bus-4WG-power-system
-A full-replica MATLAB/Simulink dynamic model of the adapted IEEE 39-bus power system, including dynamic models of 10 conventional generations,4 wind generations and 19 dynamic loads. 
+A full-replica MATLAB/Simulink dynamic model of the adapted IEEE 39-bus power system, including dynamic models of 10 synchrnonous generations, 4 type-3 wind farms and 19 dynamic loads. 
 ## New features
-* 4 wind farms are added to bus-2, 8, 11, and 21.
+* Four type-3 wind farms are added to bus-2, 8, 11, and 21.
 * The EPRI LOADSYN model has been adopted as dynamic load model
 * M-class cs-TFM PMUs are installed on each load bus for local under frequency load shedding (UFLS)
 
