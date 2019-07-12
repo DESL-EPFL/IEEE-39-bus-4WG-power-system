@@ -5,7 +5,7 @@ A full-replica MATLAB/Simulink dynamic model of the adapted IEEE 39-bus power sy
 * The EPRI LOADSYN model has been adopted as dynamic load model
 * M-class cs-TFM PMUs are installed on each load bus for local under frequency load shedding (UFLS)
 
-## Files in model.zip 
+## Files in [model.zip](../IEEE-39-bus-4WG-power-system/model.zip)
 ### Simulation Model 
 The main MATLAB/Simulink model.
 ### Initialization Files
