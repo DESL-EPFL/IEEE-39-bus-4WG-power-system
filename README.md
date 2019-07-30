@@ -15,8 +15,10 @@ The IEEE 39-bus does not specify any line lengths; therefore, we choose them to 
 The realistic load profiles are active and reactive components inferred by time series data, adapted from a monitoring system based on Phasor Measurement Units (PMUs) installed in the 125-kV grid of the city of Lausanne, Switzerland. The resolution of the time series is 20 milliseconds and the profiles are voltage and frequency independent. 
 #### Wind power profiles 
 The wind power profiles for the 4 wind farms are at 1 second resolution and obtained by resampling the measurements at 1 minute resolution from ERCOT (Electric Reliability Council of Texas).
-#### Intialization files for M-class cs-TFM PMUs
+#### Initialization files for M-class cs-TFM PMUs
 This file is used to initialize parameters for the M-class cs-TFM PMU models implemented on the loads.
+## [Initialization for dynamic simulation](https://github.com/DESL-EPFL/IEEE-39-bus-4WG-power-system/blob/master/Initialization.pdf)
+This file provides a guide of initialization for dynamic simulations.
 ## Real-time simulator 
 We use the Opal-RT real-time digital simulator OP5600, coupled with the eMEGAsim PowerGrid running on the RT-LAB real-time simulation platform. For installation, user guide and more information of the real-time simulator go [here](https://www.opal-rt.com/).
 ## Software 
